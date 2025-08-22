@@ -1,0 +1,11 @@
+{
+  "name": "vitest-requireassertions-bug-repro",
+  "type": "module",
+  "scripts": {
+    "test": "vitest --run",
+    "test:concurrent": "vitest --run --sequence.concurrent"
+  },
+  "devDependencies": {
+    "vitest": "^2.1.4"
+  }
+}
